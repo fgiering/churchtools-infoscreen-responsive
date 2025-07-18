@@ -1,0 +1,212 @@
+.progressbars-outer {
+    position: fixed;
+    bottom: 26px;
+    z-index: 300;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding-inline-end: 30px;
+    padding-inline-start: 30px;
+}
+
+.progressbars-bar {
+    height: 9px;
+    border-radius: 4.5px;
+    background-color: #d9e0e6;
+    flex: auto;
+    margin-inline-start: 6px;
+    margin-inline-end: 6px;
+}
+
+.progressbars-bar.active {
+    background-color: #4a4a4a;
+    position: relative;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+.progressbars-enter-active {
+    transition: width 10s linear;
+}
+
+.progressbars-leave-active {
+    transition: width 0.01s linear;
+}
+
+.progressbars-enter-from,
+.progressbars-leave-to {
+    width: 0;
+}
+
+.progressbars-enter-to,
+.progressbars-leave-from {
+    width: 100%;
+}
+
+.infoscreen-date[data-v-459fc1e2] {
+    width: 250px;
+    flex-shrink: 0;
+}
+
+.event-title[data-v-459fc1e2] {
+    font-family: Lato;
+    font-size: 44px;
+    font-weight: 700;
+    color: var(--color-basic-primary);
+    word-break: break-all;
+}
+
+.event-subtitle[data-v-459fc1e2] {
+    font-family: Lato;
+    font-size: 27px;
+    color: var(--color-basic-tertiary);
+    margin-top: 8px;
+    line-height: 37px;
+}
+
+.infoscreen-resources[data-v-459fc1e2] {
+    font-family: Lato;
+    font-size: 36px;
+    color: var(--color-basic-tertiary);
+    padding-top: 7px;
+    width: 29.5%;
+    flex-shrink: 0;
+    text-align: end;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.is-eventlist .is-eventtime[data-v-459fc1e2] {
+    font-family: Lato;
+    font-size: 36px;
+    color: var(--color-basic-secondary);
+    width: 308px;
+    vertical-align: top;
+    padding-top: 7px;
+}
+
+.is-eventlist .is-eventtime span.highlight[data-v-459fc1e2] {
+    background-color: var(--color-success-b-pale);
+    color: var(--color-success-primary);
+    padding: 0.3125rem 0.625rem;
+    border-radius: 5px;
+}
+
+.is-eventlist .is-eventdate[data-v-459fc1e2] {
+    vertical-align: top;
+    padding-top: 7px;
+    color: var(--color-basic-tertiary);
+    font-size: 27px;
+}
+
+.info-screen {
+    margin-inline-start: -15px;
+    margin-inline-end: -15px;
+}
+
+.is-header {
+    background-color: var(--color-background-primary);
+    height: 190px;
+    width: 100%;
+    position: relative;
+    z-index: 200;
+}
+
+.is-header .content {
+    margin-inline-start: 58px;
+    margin-inline-end: 58px;
+    line-height: 190px;
+    height: 190px;
+}
+
+.is-header .is-loading {
+    position: relative;
+    top: -170px;
+    float: right;
+    right: 20px;
+}
+
+.is-header .is-logo {
+    float: left;
+    position: relative;
+    top: 39px;
+    padding: 12px;
+    width: 112px;
+    height: 112px;
+    background-color: #fff;
+    margin-inline-end: 42px;
+    border: 1px solid var(--color-basic-divider);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.is-header .is-logo img {
+    max-width: 110px;
+    max-height: 110px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.is-header .is-title {
+    float: left;
+    font-family: Lato;
+    font-size: 24px;
+    color: var(--color-basic-tertiary);
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: calc(100% - 474px);
+}
+
+.is-header .is-timedate {
+    float: right;
+    width: 320px;
+}
+
+.is-header .is-date {
+    font-family: Lato;
+    font-size: 24px;
+    color: var(--color-basic-secondary);
+    text-transform: uppercase;
+    margin-inline-end: 40px;
+    float: right;
+}
+
+.is-header .is-time {
+    font-family: Lato;
+    font-size: 24px;
+    color: var(--color-basic-secondary);
+    text-transform: uppercase;
+    float: right;
+}
+
+.is-eventlist {
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+
+.is-eventlist .content {
+    margin-inline-start: 58px;
+    margin-inline-end: 58px;
+}
+
+.is-eventlist .event {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.is-eventlist .event-divider {
+    box-sizing: border-box;
+    height: 2px;
+    border: 1px solid var(--color-basic-divider);
+    background-color: var(--color-basic-divider);
+    margin-top: 42px;
+}
