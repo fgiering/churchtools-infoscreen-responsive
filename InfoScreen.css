@@ -45,13 +45,13 @@
 }
 
 .infoscreen-date[data-v-459fc1e2] {
-    width: 250px;
+    width: 15%;
     flex-shrink: 0;
 }
 
 .event-title[data-v-459fc1e2] {
     font-family: Lato;
-    font-size: 44px;
+    font-size: 2.5vw;
     font-weight: 700;
     color: var(--color-basic-primary);
     word-break: break-all;
@@ -59,10 +59,10 @@
 
 .event-subtitle[data-v-459fc1e2] {
     font-family: Lato;
-    font-size: 27px;
+    font-size: 1.5vw;
     color: var(--color-basic-tertiary);
     margin-top: 8px;
-    line-height: 37px;
+    line-height: 2vw;
 }
 
 .infoscreen-resources[data-v-459fc1e2] {
@@ -80,9 +80,9 @@
 
 .is-eventlist .is-eventtime[data-v-459fc1e2] {
     font-family: Lato;
-    font-size: 36px;
+    font-size: 2vw;
     color: var(--color-basic-secondary);
-    width: 308px;
+    width: 1005;
     vertical-align: top;
     padding-top: 7px;
 }
@@ -98,7 +98,7 @@
     vertical-align: top;
     padding-top: 7px;
     color: var(--color-basic-tertiary);
-    font-size: 27px;
+    font-size: 1.5vw;
 }
 
 .info-screen {
@@ -156,23 +156,23 @@
 .is-header .is-title {
     float: left;
     font-family: Lato;
-    font-size: 24px;
+    font-size: 1.5vw;
     color: var(--color-basic-tertiary);
     text-transform: uppercase;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: calc(100% - 474px);
+    width: calc(80% - 474px);
 }
 
 .is-header .is-timedate {
     float: right;
-    width: 320px;
+    width: 20%;
 }
 
 .is-header .is-date {
     font-family: Lato;
-    font-size: 24px;
+    font-size: 1.5vw;
     color: var(--color-basic-secondary);
     text-transform: uppercase;
     margin-inline-end: 40px;
@@ -181,7 +181,7 @@
 
 .is-header .is-time {
     font-family: Lato;
-    font-size: 24px;
+    font-size: 1.5vw;
     color: var(--color-basic-secondary);
     text-transform: uppercase;
     float: right;
